@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.redirect("https://www.modlily.com/", True)
+        self.redirect("https://www.modlily.com/?lkid=24160", True)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
